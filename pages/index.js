@@ -1,6 +1,14 @@
 import React from 'react'
 import dynamic from 'next/dynamic'
 
-const Outer = dynamic(import('../components/outer'))
+// const Component = dynamic(import('../components/outer'))
+// const Component = dynamic(import('../components/inner'))
 
-export default () => <Outer />
+export default () => {
+  const Component= dynamic(import('../components/outer'))
+  // const Component = dynamic(import('../components/inner'))
+
+  return (
+    <Component />
+  )
+}
