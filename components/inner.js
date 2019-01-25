@@ -1,11 +1,8 @@
 import React from 'react'
-import { ReactiveBase } from '@appbaseio/reactivesearch'
+import { ThemeProvider } from 'emotion-theming';
 
 export default () => (
-  <ReactiveBase
-    app="appname"
-    credentials="a:b"
-  >
+  <ThemeProvider theme={{}}>
     <div style={{color: 'blue'}}>Inner Component (BLUE)</div>
-  </ReactiveBase>
+  </ThemeProvider>
 )

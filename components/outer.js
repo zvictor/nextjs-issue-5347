@@ -8,7 +8,6 @@ export default () => (
     <div style={{color: 'red'}}>
       Outer Component (RED)
     </div>
-    <hr />
     <Inner />
     <div style={{color: 'orange'}}>Inner's Sibling (ORANGE)</div>
   </>

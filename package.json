@@ -1,5 +1,5 @@
 {
-  "name": "with-apollo",
+  "name": "with-themeprovider",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -7,7 +7,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@appbaseio/reactivesearch": "^3.0.0-alpha.10",
+    "emotion-theming": "9.2.9",
     "next": "8.0.0-canary.11",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
